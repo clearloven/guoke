@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+	list-style:none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+header{
+    width:16rem;
+    height:2.3rem;
+    background: #262626;
+    border-bottom: 0.1rem solid #4bccae;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.menu{
+    width:1.5rem;
+    height:1.2rem;
+    background: url(img/menu-bg.png) no-repeat;
+    background-size:1.5rem 1.2rem;
+    text-indent: -9999em;
+    margin-left: 0.4rem;
+}
+h1{
+    font-size: 0.95rem;
+}
+.pc{
+    width:1.5rem;
+    height:1.2rem;
+    background: url(img/pc-bg.png) no-repeat;
+    background-size:1.5rem 1.2rem;
+    text-indent: -9999em;
+    margin-right: 0.4rem;
+}
+.user-box{
+    width: 16.0rem;
+    height: 2.1rem;
+    background: #fafafa;
+	text-align:center;
+	display:flex;
+	position:relative;
+	line-height:2.1rem;
+	font-size:0.7rem;
+	color:#85838e;
+}
+.left{
+	width: 7rem;
+	padding-left:1rem;
+	background: url(img/left-bg.png) no-repeat 1.4rem 0.3rem;
+	background-size:1.5rem 1.5rem;
+	flex:1;
+	
+}
+.center{
+	width: 0.2rem;
+	height:1.5rem;
+    background:#fff;
+	border-radius:0.25rem;
+	position:absolute;
+	top:0.3rem;
+	left:7.9rem;
+	
+}
+.right{
+	width: 7rem;
+	padding-left:1rem;
+	background: url(img/right-bg.png) no-repeat 1.4rem 0.3rem;
+	background-size:1.5rem 1.5rem;
+	flex:1;
+}
+.max{
+	width:16rem;
+	height:8.85rem;
+	background: url(img/max-bg.png) no-repeat;
+	background-size:16rem 8.85rem;
+}
+.joker{
+	width:14.6rem;
+	padding-left:0.8rem;
+	padding-right:0.8rem;
+	border-bottom: 0.1rem solid #4bccae;
+}
+.joker li{
+	height:2rem;
+	font-size:0.8rem;
+	line-height:2rem;
+	border-bottom:0.05rem solid #ccc;
+}
